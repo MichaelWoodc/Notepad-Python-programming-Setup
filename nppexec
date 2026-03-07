@@ -1,0 +1,7 @@
+## Add the nppexec plugin, and press F6.  When the dialog pops up, plate this inside:
+
+INPUTBOX "Enter arguments:\n" "Python Arguments"
+cmd /c python "$(FULL_CURRENT_PATH)" $(INPUT)
+
+## Don't forget to save it, and, that's it! Now, you can press your shortcut or F6 to re-run the saved command.
+## A prompt / input box will pop up and accept your commands, and you can easily run your code with sys.argv parameters / arguments!
